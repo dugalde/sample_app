@@ -27,7 +27,10 @@ gem 'jquery-rails', '2.1.3'
 
 group :test do
   
+  gem 'cucumber-rails'
   gem 'capybara', '1.1.2'
+  gem 'database_cleaner'
+
 end
 
 # To use ActiveModel has_secure_password
